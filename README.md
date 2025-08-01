@@ -1,4 +1,4 @@
-Custom Language Compiler with JIT
+Custom Language Compiler with JIT <p>
 A high-performance programming language implementation featuring an interpreter and LLVM-based JIT compiler. This project demonstrates advanced compiler engineering techniques including lexical analysis, recursive descent parsing, AST generation, and just-in-time compilation to native code.
 <br><br>
 Overview
