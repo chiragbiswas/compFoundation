@@ -27,52 +27,6 @@ LLVM 14+ (on macOS: brew install llvm)
 C++14 compatible compiler
 Make
 
-Building
-bash# Build with JIT support (requires LLVM)
-make
-
-# Build interpreter-only version (no LLVM required)
-make interpreter
-
-# Run the compiler
-make run
-Example Programs
-Basic Arithmetic and Variables
-javascriptlet x = 10;
-let y = 20;
-let z = x + y;
-print(z);  // Output: 30
-
-// Power operation
-let result = 2 ** 10;
-print(result);  // Output: 1024
-Functions and Recursion
-javascriptfunction factorial(n) {
-    if (n <= 1) {
-        return 1;
-    }
-    return n * factorial(n - 1);
-}
-
-print(factorial(5));  // Output: 120
-Arrays and Statistical Functions
-javascriptlet data = [85, 90, 78, 92, 88, 76, 95, 89, 91, 87];
-print(mean(data));    // Output: 87.1
-print(std(data));     // Output: 6.234
-print(max(data));     // Output: 95
-print(min(data));     // Output: 76
-Strings and Maps
-javascriptlet message = "Hello, World!";
-print(message);
-print("Length: " + str(len(message)));
-
-let person = {"name": "Alice", "age": "30", "city": "New York"};
-print("Name: " + person["name"]);
-print("Age: " + person["age"]);
-For Loops
-javascriptfor (let i = 0; i < 10; i = i + 1) {
-    print("fib(" + str(i) + ") = " + str(fibonacci(i)));
-}
 Architecture
 Components
 
